@@ -78,7 +78,7 @@ try:
     # Aba para introdução e storytelling
     introducao, tab1, tab2, tab3, tab4, tab5 = st.tabs([
         "Introdução e Storytelling", "Evolução de Desempenho", 
-        "Comparação entre Indicadores", "Correlação entre Indicadores", "Matriz de Correlação por Grupos", "Predição"
+        "Comparação entre Indicadores", "Correlação entre Indicadores", "Análise de Grupos: Correlação e Outliers", "Predição"
     ])
 
         ### Introdução e Storytelling ###
