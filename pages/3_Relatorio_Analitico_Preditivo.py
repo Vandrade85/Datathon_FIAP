@@ -354,10 +354,10 @@ try:
         correlacao_melhores = df_melhores[['Desempenho', 'Autoavaliacao', 'Engajamento', 'Psicossocial', 'Aprendizagem', 'Psicopedagogico', 'PontoDeVirada', 'AdequaçãoDeNivel']].corr()
         correlacao_desenvolvimento = df_desenvolvimento[['Desempenho', 'Autoavaliacao', 'Engajamento', 'Psicossocial', 'Aprendizagem', 'Psicopedagogico', 'PontoDeVirada', 'AdequaçãoDeNivel']].corr()
 
-        # Função para plotar a matriz de correlação triangular
+        # Função para plotar a matriz de correlação triangular com tamanho menor
         def plotar_matriz_triangular(correlacao, titulo):
-            mask = np.triu(np.ones_like(correlacao, dtype=bool))
-            plt.figure(figsize=(10, 8))
+            mask = np.triu(np.ones_like(correlacao, dtype=bool))  # Criar máscara para a parte superior
+            plt.figure(figsize=(6, 5))  # Diminuir o tamanho do gráfico
             sns.heatmap(correlacao, mask=mask, annot=True, fmt=".2f", cmap='coolwarm', square=True, cbar_kws={"shrink": .8})
             plt.title(titulo)
             st.pyplot(plt)
