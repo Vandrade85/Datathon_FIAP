@@ -113,11 +113,21 @@ try:
         st.plotly_chart(fig_desempenho)
         
         st.markdown("""
-        **Aqui estão alguns pontos importantes observados no gráfico:**
-        - **Declínio entre 2020 e 2021:** O desempenho médio dos alunos caiu significativamente entre 2020 e 2021, conforme indicado pela linha descendente. Isso pode ser reflexo de desafios que os alunos enfrentaram nesse período, como a adaptação a novas metodologias de ensino ou outros fatores que afetaram a performance.
-        - **Recuperação em 2022:** Em 2022, há uma recuperação no desempenho médio. A linha ascendente sugere que, após o período de queda, medidas foram tomadas que impactaram positivamente o desempenho dos alunos, como melhorias em estratégias pedagógicas ou maior engajamento nas atividades da ONG.
-        - **Tendência Geral:** Embora haja essa recuperação em 2022, o desempenho médio ainda não alcançou os níveis de 2020. Isso pode indicar que o impacto negativo observado em 2021 não foi completamente revertido, e que é necessário continuar focando em estratégias que possam trazer o desempenho de volta ao nível mais alto de 2020.
+        A análise do gráfico confirma que o desempenho médio dos alunos foi impactado por fatores tanto externos quanto internos, resultando no declínio observado entre 2020 e 2021. Entre esses fatores, o mais significativo foi o **fator externo**, relacionado à pandemia de COVID-19 e suas consequências para o sistema educacional.
+
+        **Fator Externo:**
+        Em 2020, o Brasil e o mundo enfrentaram a pandemia, que levou ao isolamento social e à interrupção das aulas presenciais, como determinado pelo Ministério da Saúde. Esse isolamento teve um impacto profundo no desempenho dos alunos. Conforme o estudo de Azoni et al. (2020), que revisou artigos publicados entre dezembro de 2019 e julho de 2020, a falta de acesso adequado aos meios virtuais foi uma barreira importante. Alunos de regiões mais vulneráveis, com dificuldade de acesso à internet e dispositivos eletrônicos, foram os mais afetados. O estudo focou em alunos da educação básica em isolamento social, descrevendo os desafios na aprendizagem e as adaptações emergenciais necessárias para dar continuidade ao ensino. Esse contexto de pandemia criou uma ruptura brusca nos processos de ensino e aprendizado, que culminou na queda expressiva do desempenho médio dos alunos no ano seguinte.
+
+        **Fator Interno:**
+        A ONG Passos Mágicos, que teve um papel crucial no suporte aos alunos durante esse período, também enfrentou desafios internos para se adaptar à nova realidade. Como muitas outras instituições educacionais e sociais, a ONG precisou adaptar suas metodologias de ensino e capacitar seus profissionais para dar continuidade ao desenvolvimento dos alunos. O uso de tecnologias de ensino a distância, aliados a práticas pedagógicas inovadoras, foram adotados como parte dessa adaptação. No entanto, essa transição trouxe desafios iniciais que se refletem na queda de desempenho entre 2020 e 2021.
+
+        **Pontos Relevantes do Gráfico:**
+        - **Declínio entre 2020 e 2021:** O gráfico mostra uma queda acentuada no desempenho médio dos alunos entre 2020 e 2021. Esse período foi marcado pela adaptação ao ensino remoto e por diversos fatores que impactaram a performance dos alunos, como a falta de acesso à internet, de suporte adequado no ambiente domiciliar e a perda do vínculo com as práticas educacionais tradicionais.
+        - **Recuperação em 2022:** A recuperação do desempenho em 2022 sugere que os esforços para mitigar os impactos da pandemia começaram a surtir efeito. A linha ascendente no gráfico pode ser vista como resultado de melhorias nas estratégias pedagógicas implementadas pela ONG e do aumento no engajamento dos alunos nas atividades. A retomada gradual das atividades presenciais e as novas metodologias híbridas contribuíram para essa recuperação, embora o desempenho ainda não tenha retornado aos níveis pré-pandemia.
+
+        Essa análise reflete a resiliência do setor educacional e a capacidade de adaptação das organizações envolvidas, como a Passos Mágicos, ao enfrentar uma crise sem precedentes. No entanto, também reforça a necessidade de continuar investindo em políticas e práticas educacionais que possam apoiar a recuperação plena do desempenho acadêmico.
         """)
+
     ### Aba 2: Comparação entre Desempenho, Engajamento, Aprendizagem e Autoavaliação ###
     with tab2:
         st.subheader("Comparação entre Desempenho, Engajamento, Aprendizagem e Autoavaliação")
