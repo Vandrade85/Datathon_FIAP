@@ -270,7 +270,7 @@ try:
 
 
 
-    ### Aba 4: Matriz de Correlação por Grupos ###
+    ### Aba 4: Análise de Grupos: Correlação e Outliers ###
     with tab4:
                
         st.markdown("### Análise dos Outliers")
