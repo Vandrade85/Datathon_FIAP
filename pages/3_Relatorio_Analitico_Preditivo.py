@@ -357,7 +357,7 @@ try:
         # Função para plotar a matriz de correlação triangular com tamanho menor
         def plotar_matriz_triangular(correlacao, titulo):
             mask = np.triu(np.ones_like(correlacao, dtype=bool))  # Criar máscara para a parte superior
-            plt.figure(figsize=(5, 4))  # Diminuir o tamanho do gráfico
+            plt.figure(figsize=(6, 5))  # Diminuir o tamanho do gráfico
             sns.heatmap(correlacao, mask=mask, annot=True, fmt=".2f", cmap='coolwarm', square=True, cbar_kws={"shrink": .8})
             plt.title(titulo)
             st.pyplot(plt)
