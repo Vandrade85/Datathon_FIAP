@@ -78,7 +78,7 @@ try:
     # Aba para introdução e storytelling
     introducao, tab1, tab2, tab3, tab4, tab5 = st.tabs([
         "Introdução e Storytelling", "Evolução de Desempenho", 
-        "Comparação entre Indicadores", "Correlação entre Indicadores", "Análise de Grupos: Correlação e Outliers", "Predição"
+        "Comparação entre Indicadores", "Correlação entre Indicadores", "Análise de Grupos: Correlação e Outliers", "Predição do Desempenho Futuro"
     ])
 
         ### Introdução e Storytelling ###
@@ -367,7 +367,7 @@ try:
         plotar_matriz_triangular(correlacao_desenvolvimento, 'Matriz de Correlação - Alunos em Desenvolvimento')
     
     
-    ### Aba 5: Predição ###
+    ### Aba 5: Predição do Desempenho Futuro ###
     with tab5:
         st.subheader("Predição do Desempenho Futuro")
 
