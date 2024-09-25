@@ -113,6 +113,7 @@ try:
         st.plotly_chart(fig_desempenho)
         
         st.markdown("""
+        **Analise do gráfico**
         A análise do gráfico confirma que o desempenho médio dos alunos foi impactado por fatores tanto externos quanto internos, resultando no declínio observado entre 2020 e 2021. Entre esses fatores, o mais significativo foi o **fator externo**, relacionado à pandemia de COVID-19 e suas consequências para o sistema educacional.
 
         **Fator Externo:**
