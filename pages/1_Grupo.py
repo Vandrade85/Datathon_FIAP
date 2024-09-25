@@ -52,6 +52,7 @@ st.markdown(
         margin-bottom: 10px;
         background-color: rgba(255, 255, 255, 0.8);
         box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+        color: #000000;  /* Nomes e matrículas em preto */
     }}
 
     </style>
